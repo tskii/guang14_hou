@@ -1,14 +1,12 @@
 <template>
   <div>
-    测试
-    <router-view></router-view>
+    哈喽
   </div>
 </template>
 
 <script>
   export default {
-    //组件初始化完毕自动调用的生命周期函数
-
+    
   }
 </script>
 
