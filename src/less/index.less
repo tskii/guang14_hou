@@ -2,7 +2,14 @@ body,
 html {
     height: 100%;
 }
-.router-link-active{
+
+.router-link-active {
     text-decoration: none;
     color: #fff;
+} // 字体默认为浅灰
+[class^=el-icon-] {
+    color: rgba(0, 0, 0, 0.3);
+    &.active {
+        color: #000;
+    }
 }

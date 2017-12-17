@@ -8,7 +8,9 @@
     <el-header>
       <app-header></app-header>
     </el-header>
-      <el-main>Main</el-main>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
     </el-container>
   </el-container>
   </div>
@@ -54,7 +56,6 @@ export default {
   .el-main {
     background-color: #E9EEF3;
     color: #333;
-    line-height: 160px;
   }
   
   body > .el-container {

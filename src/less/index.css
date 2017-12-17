@@ -6,3 +6,9 @@ html {
   text-decoration: none;
   color: #fff;
 }
+[class^=el-icon-] {
+  color: rgba(0, 0, 0, 0.3);
+}
+[class^=el-icon-].active {
+  color: #000;
+}
