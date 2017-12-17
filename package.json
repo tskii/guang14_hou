@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "element": "^0.1.4",
+    "element-ui": "^2.0.8",
     "vue": "^2.5.10",
     "vue-router": "^3.0.1"
   }
