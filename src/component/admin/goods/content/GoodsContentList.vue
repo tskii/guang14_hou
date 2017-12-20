@@ -11,7 +11,10 @@
   <!-- 按钮和搜索 -->
   <section>
     <div class="btns">
-      <el-button type="info" plain size="small" class="el-icon-plus">新增</el-button>
+        <a href="/#/goods/added/add">
+      <el-button type="info" plain size="small" class="el-icon-plus" >新增</el-button>
+        
+        </a>
       <el-button type="info" plain size="small" class="el-icon-check">全选</el-button>
       <el-button type="info" plain size="small" class="el-icon-delete">删除</el-button>
     </div>
@@ -46,7 +49,7 @@
      </el-table-column>
     <el-table-column width="100" label="操作">
        <template slot-scope="scope">
-       <a href="">修改</a>
+        <router-link :to="{name: 'gcte', params: {id: scope.row.id}}">修改</router-link>
       </template>
      </el-table-column>
   </el-table>
@@ -72,6 +75,7 @@ export default {
   data() {
     return {
       input: "",
+
       query:{
         pageIndex:1,
         pageSize:7,

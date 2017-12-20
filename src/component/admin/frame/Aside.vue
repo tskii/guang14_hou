@@ -59,9 +59,9 @@ export default {
         {
           title:'商品管理',children:
           [
-            {title:'内容管理',path:'/'},
-            {title:'类别管理',path:'/'},
-            {title:'评论管理',path:'/'},
+            {title:'内容管理',path:'/goods/content/list'},
+            {title:'类别管理',path:'/goods/category/cat'},
+            {title:'评论管理',path:'/goods/comment/list '},
           ]
         },
         {
